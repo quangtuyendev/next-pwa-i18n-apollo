@@ -1,0 +1,82 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/commons/*": [
+        "commons/*"
+      ],
+      "@/actions/*": [
+        "actions/*"
+      ],
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/api/*": [
+        "api/*"
+      ],
+      "@/helpers/*": [
+        "helpers/*"
+      ],
+      "@/services/*": [
+        "services/*"
+      ],
+      "@/utils/*": [
+        "utils/*"
+      ],
+      "@/constants/*": [
+        "constants/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/containers/*": [
+        "containers/*"
+      ],
+      "@/locales/*": [
+        "locales/*"
+      ],
+      "@/graphql/*": [
+        "graphql/*"
+      ]
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "moduleResolution": "node",
+    "strict": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "isolatedModules": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "dist",
+    ".next",
+    "out",
+    "next.config.js"
+  ],
+  "include": [
+    "**/*.js",
+    "**/*.jsx"
+  ]
+}
