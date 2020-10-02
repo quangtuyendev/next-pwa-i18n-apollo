@@ -1,7 +1,12 @@
+import Layout from '@/components/Shared/Layout';
 import React from 'react';
 
 function About() {
-  return <div>About page</div>;
+  return (
+    <Layout>
+      <div>About page</div>
+    </Layout>
+  );
 }
 
 export default About;

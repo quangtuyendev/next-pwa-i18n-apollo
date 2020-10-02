@@ -14,6 +14,7 @@ function Meta() {
       <meta property="og:url" content="https://next-pwa-i18n-apollo.now.sh" />
       <meta name="keywords" content="NextJs I18n PWA Apollo" />
       <meta name="description" content="NextJs I18n PWA Apollo" />
+      <link rel="manifest" href="/manifest.json" />
       <meta name="viewport" content="width=device-width" />
       <meta charSet="utf-8" />
       <title>NextJs I18n PWA Apollo</title>

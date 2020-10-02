@@ -1,0 +1,23 @@
+{
+    "name": "next-pwa-i18n-apollo",
+    "short_name": "next-pwa-i18n-apollo",
+    "description": "Nextjs using service worker via next-offline",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/static/icons/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/static/icons/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}

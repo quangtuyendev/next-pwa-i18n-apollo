@@ -4,7 +4,7 @@ import React from 'react';
 function ErrorPage() {
   return (
     <Layout>
-      <div>This is error page</div>
+      <div>Home page</div>;
     </Layout>
   );
 }
